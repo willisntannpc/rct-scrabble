@@ -3,6 +3,8 @@ import Board from './components/Board';
 import TileRack from './components/TileRack';
 import AnimationHandler from './components/AnimationHandler';
 import ScoreTable from './components/ScoreTable';
+import './styles/styles.css';
+
 
 function App() {
   const [score, setScore] = useState({ player1: 0, player2: 0 });

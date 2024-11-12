@@ -1,0 +1,35 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(15, 40px);
+    gap: 2px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tile-rack {
+    display: flex;
+    gap: 5px;
+    margin: 10px;
+  }
+  
+  .tile {
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+  }
+  
+  .score-table {
+    margin-bottom: 20px;
+  }
+  

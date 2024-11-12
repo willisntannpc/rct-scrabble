@@ -1,4 +1,3 @@
-// components/AnimationHandler.js
 import React, { useEffect } from 'react';
 
 function AnimationHandler({ words, turn, onTurnEnd, updateScore }) {

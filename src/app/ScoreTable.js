@@ -1,4 +1,3 @@
-// components/ScoreTable.js
 import React from 'react';
 
 function ScoreTable({ score }) {
