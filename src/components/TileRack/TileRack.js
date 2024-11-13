@@ -11,7 +11,7 @@ function TileRack({ turn, setWords }) {
 
   return (
     <div className="tile-rack">
-      <h2>Player {turn}'s Rack</h2>
+      <h2>Player {turn} Rack</h2>
       {rack.map((tile, index) => (
         <span key={index} className="tile">
           {tile}
