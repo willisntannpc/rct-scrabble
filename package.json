@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start":"react-scripts start",
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "dev": "next dev",
     "build": "react-scripts build",
-    "test": "react-scrpits test",
-    "eject":" react-scripts eject",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "next dev",
     "server": "node server.js",
     "lint": "next lint"
   },
